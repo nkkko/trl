@@ -1,6 +1,7 @@
 ---
-theme: apple-basic
-background: https://source.unsplash.com/collection/94734566/1920x1080
+theme: default
+layout: cover
+background: /masood-aslami-BUNLnWEBI24-unsplash.jpeg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -18,22 +19,7 @@ mdc: true
 
 Kreiranje plana tehnološkog razvoja i njegova operacionalizacija
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Pritisnite Space za sljedeću stranicu <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
-<!--
 Nikola Balić, niko@daytona.io — Rijeka, rujan 2023.
--->
 
 ---
 transition: fade-out

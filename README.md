@@ -9,3 +9,8 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
+
+- Run the slide show publicly
+```bash
+daytona forward 3030 trl trl --public
+```
