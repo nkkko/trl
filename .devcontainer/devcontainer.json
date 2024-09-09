@@ -1,0 +1,34 @@
+{
+    "name": "Slidev Presentation Development",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "forwardPorts": [
+        3030
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+            "editor.formatOnSave": true,
+            "files.autoSave": "afterDelay",
+            "vue.format.defaultFormatter.html": "prettier",
+            "typescript.tsdk": "node_modules/typescript/lib",
+            "eslint.nodePath": "node_modules"
+        },
+                    // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+            "antfu.slidev"
+        ]
+      }
+    },
+
+    // Use 'portsAttributes' to set default properties for specific forwarded ports.
+    // More info: https://containers.dev/implementors/json_reference/#port-attributes
+    "portsAttributes": {
+        "3030": {
+            "label": "Slidev",
+            "onAutoForward": "openBrowser"
+        }
+    },
+
+    "postCreateCommand": "npm install && daytona forward 3030 --public"
+  }
+
