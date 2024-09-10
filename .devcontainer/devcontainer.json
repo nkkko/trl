@@ -30,6 +30,6 @@
     },
 
     "postCreateCommand": "yarn install",
-    "postAttachCommand": "yarn run dev --remote && daytona forward 3030 --public"
+    // "postAttachCommand": "yarn run dev --remote && daytona forward 3030 --public"
   }
 
