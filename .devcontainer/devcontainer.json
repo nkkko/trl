@@ -29,7 +29,7 @@
         }
     },
 
-    "postCreateCommand": "yarn install",
+    "postCreateCommand": "yarn install"
     // "postAttachCommand": "yarn run dev --remote && daytona forward 3030 --public"
   }
 
