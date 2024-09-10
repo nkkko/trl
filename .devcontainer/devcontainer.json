@@ -29,6 +29,6 @@
         }
     },
 
-    "postCreateCommand": "npm install && daytona forward 3030 --public"
+    "postCreateCommand": "npm install"
   }
 
