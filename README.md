@@ -3,7 +3,7 @@
 To start the slide show:
 
 - `yarn install`
-- `yarn run dev`
+- `yarn run dev --remote`
 - visit <http://localhost:3030>
 
 Edit the [slides.md](./slides.md) to see the changes.

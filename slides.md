@@ -41,7 +41,7 @@ layout: two-cols
 
 <v-click>
 
-> "Razumjeti životni ciklus tehnologije znači predvidjeti budućnost i biti korak ispred konkurencije."
+![Technology Planning](/assets/tlc.png)
 
 </v-click>
 
@@ -51,23 +51,39 @@ layout: two-cols
 
 ### Četiri faze životnog ciklusa:
 1. **Faza istraživanja (R&D):** kada su prihodi od ulaganja negativni i kada su izgledi za neuspjeh visoki
-2. **Faza uspona:** kada su izravni troškovi pokriveni i tehnologija počinje jačati (A)
-3. **Faza zrelosti:** kada je prihod visok i stabilan (M)
-4. **Faza opadanja:** smanjeni prihodi i korisnost tehnologije (D) - Vrijeme za inovaciju ili transformaciju
+2. **Faza uspona:** kada su izravni troškovi pokriveni i tehnologija počinje jačati
+3. **Faza zrelosti:** kada je prihod visok i stabilan
+4. **Faza opadanja:** smanjeni prihodi i korisnost tehnologije - Vrijeme za inovaciju ili transformaciju
 
 </v-click>
 
+---
+layout: statement
+---
+Razumjeti životni ciklus tehnologije
+znači predvidjeti budućnost i biti korak ispred konkurencije.
+
+---
+layout: two-cols
 ---
 
 # Primjer životnog ciklusa DVD tehnologije
 
 <v-clicks>
 
-- Ona je prošla kroz sve faze životnog ciklusa:
+- Prošla kroz sve faze životnog ciklusa:
   - R&D faza: Razvoj u laboratorijima 1990-ih
   - Faza uspona: Masovno prihvaćanje ranih 2000-ih
   - Faza zrelosti: Dominacija tržišta sredinom 2000-ih
   - Faza opadanja: Postupna zamjena streaming tehnologijama
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+![DVD life](/assets/dvd.png)
 
 > "Netflix je odličan primjer uspješnog tehnološkog planiranja. Oni su predvidjeli prelazak s fizičkih DVD-ova na streaming, i počeli razvijati streaming tehnologiju dok je DVD posao još uvijek cvjetao."
 
@@ -95,7 +111,7 @@ class: text-center
 
 # Uvod u tehnološke planove
 
-Vaš tehnološki plan je više od običnog dokumenta - to je vaša vizija budućnosti pretočena u akcijski plan.
+Vaš tehnološki plan je vizija budućnosti pretočena u akcijski plan.
 
 ---
 
@@ -126,6 +142,8 @@ mindmap
 ```
 
 ---
+layout: two-cols
+---
 
 # Što je planiranje (roadmapping)?
 
@@ -135,6 +153,11 @@ mindmap
 - Ova definicija naglašava ključne značajke planova, kao strukturiranih, vremenski određenih vizuala koji podržavaju strateški narativ o budućim mogućnostima i ambicijama.
 
 </v-clicks>
+
+::right::
+
+![Roadmap](/assets/roadmap.png)
+
 
 ---
 
@@ -167,21 +190,12 @@ mindmap
 </v-clicks>
 
 ---
+layout: two-cols
+---
 
 # Opći okvir planiranja
 
 ### Četiri temeljna pitanja definiraju cjelokupnu strukturu:
-
-```
-+-------+     +-------+
-| Zašto?|---->|  Što? |
-+-------+     +-------+
-    |             |
-    v             v
-+-------+     +-------+
-| Kako? |<--->| Kada? |
-+-------+     +-------+
-```
 
 <v-click>
 
@@ -193,104 +207,104 @@ mindmap
 
 </v-click>
 
+::right::
+
+```mermaid {theme: 'forest', scale: 1.5}
+graph TD
+    A[Zašto?] --> B[Što?]
+    A --> C[Kako?]
+    B --> D[Kada?]
+    C <--> D
+```
+
 ---
 
-<v-clicks>
+# Iz 'Kada' proizlaze tri daljnja temeljna pitanja:
 
-- Iz 'Kada' proizlaze tri daljnja temeljna pitanja:
    - Kamo želimo ići?
    - Gdje smo sada?
    - Kako tamo možemo doći?
 
+<v-clicks>
+
 U svim planovima, da bi strategija bila potpuna, trebala bi postojati tri široka sloja (definirana s 'zašto, što i kako') koji se mogu podijeliti i prikazati u odnosu na vrijeme ('kada').
+
 Pitanje 'Tko?' uključuje se u svako od gore navedenih dok odlučujete tko treba biti uključen u plan u određenim vremenima.
 
 > "Dobar plan je kao kompas - pokazuje vam smjer, ali vam ostavlja slobodu da pronađete najbolji put."
 
 </v-clicks>
 
+
 ---
 
 # Trendovi i pokretači (Zašto?)
 
-<v-clicks>
-
-• Utjecaji visoke razine koji oblikuju tržište
-• Postavlja kontekst za tržišne potrebe
-• Razvija se tijekom vremena
-
-</v-clicks>
+- Utjecaji visoke razine koji oblikuju tržište
+- Postavlja kontekst za tržišne potrebe
+- Razvija se tijekom vremena
 
 ---
 
 # Tržišne/industrijske potrebe (Zašto?)
 
-<v-clicks>
-
-• Razvijaju se kao odgovor na trendove i pokretače
-• Predstavlja faktor "povlačenja" u inovacijama
-• Ključno za usklađivanje proizvoda s potražnjom
-
-</v-clicks>
+- Razvijaju se kao odgovor na trendove i pokretače
+- Predstavlja Pull faktor u inovacijama
+- Ključno za usklađivanje proizvoda s potražnjom
 
 ---
 
 # Prilike za stvaranje vrijednosti (Što?)
 
-<v-clicks>
-
-• Potencijalni proizvodi, usluge ili sustavi
-• Premošćuje tržišne potrebe i tehnološke mogućnosti
-• Predstavlja ključne ponude koje treba razviti
-
-</v-clicks>
+- Potencijalni proizvodi, usluge ili sustavi
+- Premošćuje tržišne potrebe i tehnološke mogućnosti
+- Predstavlja ključne ponude koje treba razviti
 
 ---
 
 # Tehnologije i sposobnosti (Kako?)
 
-<v-clicks>
-
-• Potrebno za isporuku prilika za stvaranje vrijednosti
-• Predstavlja faktor "guranja" u inovacijama
-• Razvija se kako bi zadovoljio promjenjive tržišne potrebe
-
-</v-clicks>
+- Potrebno za isporuku prilika za stvaranje vrijednosti
+- Predstavlja Push faktor u inovacijama
+- Razvija se kako bi zadovoljio promjenjive tržišne potrebe
 
 ---
 
 # Omogućitelji (Kako?)
 
-<v-clicks>
-
-• Ključni elementi podrške:
+- Ključni elementi podrške:
   - Financiranje
   - Infrastruktura
   - Osoblje/vještine
-• Temelj za uspješne inovacije
-• Podržava sve razine okvira
-
-</v-clicks>
+- Temelj za uspješne inovacije
+- Podržava sve razine okvira
 
 ---
 layout: center
 class: text-center
 ---
 
-# Procjena vaše tehnološke spremnosti (TRL): Gdje ste na svom putovanju?
+# Procjena vaše tehnološke spremnosti (TRL)
+### Gdje ste na svom putovanju?
 
+---
+layout: two-cols
 ---
 
 # Zašto je važno znati vaš TRL:
 
-<v-clicks>
-
 - Ukazuje na zrelost i razinu rizika tehnologije
 - Informira odluke o financiranju i razvoju
 - Pomaže u komunikaciji s dionicima
-- Trebate to upisati u nekakav EU obrazac :-D
+- Trebate to upisati u nekakav EU obrazac 🤣
 
-</v-clicks>
+::right::
+
+<v-click>
+
+![What if](/assets/whatif.jpg)
+
+</v-click>
 
 ---
 
@@ -299,11 +313,23 @@ class: text-center
 <v-clicks>
 
 Zamislite TRL kao mapu s 9 točaka. Gdje se nalazite?
-- **TRL 1-3**: Istraživanje i koncept (Početak putovanja)
-- **TRL 4-6**: Razvoj i demonstracija (Sredina puta)
-- **TRL 7-9**: Implementacija i operacija (Blizu cilja)
+- **TRL 1-3**: Istraživanje i koncept
+- **TRL 4-6**: Razvoj i demonstracija
+- **TRL 7-9**: Implementacija i operacija
 
 </v-clicks>
+
+```mermaid
+graph LR
+    A[TRL 1-3] -->|Početak putovanja| B[TRL 4-6]
+    B -->|Sredina puta| C[TRL 7-9]
+    C -->|Blizu cilja| D((Cilj))
+
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeac99,stroke:#333,stroke-width:2px
+    style C fill:#e06377,stroke:#333,stroke-width:2px
+    style D fill:#c83349,stroke:#333,stroke-width:2px
+```
 
 ---
 
