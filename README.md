@@ -12,5 +12,5 @@ Learn more about Slidev at the [documentation](https://sli.dev/).
 
 - Run the slide show publicly
 ```bash
-daytona forward 3030 trl trl --public
+daytona forward 3030 --public
 ```
