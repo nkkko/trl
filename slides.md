@@ -19,7 +19,7 @@ mdc: true
 
 Kreiranje plana tehnološkog razvoja i njegova operacionalizacija
 
-Nikola Balić, niko@daytona.io — Rijeka, rujan 2023.
+Nikola Balić, niko@daytona.io — Rijeka, rujan 2024.
 
 ---
 transition: fade-out
