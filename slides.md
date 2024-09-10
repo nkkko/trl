@@ -1,7 +1,7 @@
 ---
 theme: default
 layout: cover
-background: /masood-aslami-BUNLnWEBI24-unsplash.jpeg
+background: /background.jpg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -13,13 +13,22 @@ drawings:
 transition: slide-left
 title: Učinkovito tehnološko planiranje
 mdc: true
+fonts:
+  # basically the text
+  sans: SUSE
+  # use with `font-serif` css class from UnoCSS
+  serif: Roboto Slab
+  # for code blocks, inline code, etc.
+  mono: Fira Code
 ---
 
 # Učinkovito tehnološko planiranje
 
-Kreiranje plana tehnološkog razvoja i njegova operacionalizacija
+### Kreiranje plana tehnološkog razvoja i njegova operacionalizacija
 
-Nikola Balić, niko@daytona.io — Rijeka, rujan 2024.
+Nikola Balić, Head of Growth, Daytona.io
+<br />
+Rijeka, rujan 2024.
 
 ---
 transition: fade-out
@@ -59,9 +68,10 @@ layout: two-cols
 
 ---
 layout: statement
+background: /background.jpg
 ---
-Razumjeti životni ciklus tehnologije
-znači predvidjeti budućnost i biti korak ispred konkurencije.
+
+# Razumjeti životni ciklus tehnologije znači predvidjeti budućnost i biti korak ispred konkurencije.
 
 ---
 layout: two-cols
@@ -93,16 +103,12 @@ layout: two-cols
 
 # Razumijevanje životnog ciklusa pomaže:
 
-<v-clicks>
-
 - Bolje razumjeti tržišne trendove i ponašanje potrošača
 - Identificirati prilike za inovacije i poboljšanja
 - Identificirati rizike i izazove
 - Procijeniti zrelost trenutne tehnologije
 - Predvidjeti obrasce rasta
 - Razviti strategiju za ulaganje u tehnologije
-
-</v-clicks>
 
 ---
 layout: center
@@ -147,12 +153,8 @@ layout: two-cols
 
 # Što je planiranje (roadmapping)?
 
-<v-clicks>
-
 - Plan (roadmap) je strukturirana vizualna kronologija strateške namjere.
 - Ova definicija naglašava ključne značajke planova, kao strukturiranih, vremenski određenih vizuala koji podržavaju strateški narativ o budućim mogućnostima i ambicijama.
-
-</v-clicks>
 
 ::right::
 
@@ -163,21 +165,15 @@ layout: two-cols
 
 # Zašto je plan važan:
 
-<v-clicks>
-
 - Usklađuje tehnološku strategiju s poslovnim ciljevima
 - Pomaže u određivanju prioriteta
 - Omogućuje informirano raspoređivanje resursa
 - Identificira i kontrolira rizike
 - Omogućuje praćenje napretka i prilagodbe
 
-</v-clicks>
-
 ---
 
 # Ključni elementi plana:
-
-<v-clicks>
 
 - **Poslovni ciljevi**: Kamo želite stići?
 - **Trenutne sposobnosti**: Gdje ste sada?
@@ -187,8 +183,6 @@ layout: two-cols
 - **Miljokazi**: Kako ćete znati da ste na pravom putu?
 - **Rizici**: Koje prepreke možete očekivati?
 
-</v-clicks>
-
 ---
 layout: two-cols
 ---
@@ -197,15 +191,11 @@ layout: two-cols
 
 ### Četiri temeljna pitanja definiraju cjelokupnu strukturu:
 
-<v-click>
-
 - Uloga planiranja je pružiti integrativnu vizualnu strukturu za organiziranje odgovora na specifična pitanja:
 1. **Zašto?** (Trendovi i pokretači)
 2. **Što?** (Prilike za stvaranje vrijednosti)
 3. **Kako?** (Tehnologije i sposobnosti)
 4. **Kada?** (Vremenski okvir)
-
-</v-click>
 
 ::right::
 
@@ -317,8 +307,6 @@ Zamislite TRL kao mapu s 9 točaka. Gdje se nalazite?
 - **TRL 4-6**: Razvoj i demonstracija
 - **TRL 7-9**: Implementacija i operacija
 
-</v-clicks>
-
 ```mermaid
 graph LR
     A[TRL 1-3] -->|Početak putovanja| B[TRL 4-6]
@@ -330,6 +318,8 @@ graph LR
     style C fill:#e06377,stroke:#333,stroke-width:2px
     style D fill:#c83349,stroke:#333,stroke-width:2px
 ```
+
+</v-clicks>
 
 ---
 
@@ -343,6 +333,8 @@ graph LR
 
 </v-clicks>
 
+---
+layout: two-cols
 ---
 
 # Standardna TRL ljestvica
@@ -361,6 +353,10 @@ graph LR
 
 </v-clicks>
 
+::right::
+
+![TRL](/assets/trl-fig.png)
+
 ---
 
 # TRL 1-3
@@ -368,16 +364,16 @@ graph LR
 <v-clicks>
 
 #### TRL 1 Promatrani osnovni principi:
-- Na ovoj razini se provodi temeljno znanstveno istraživanje bez specifične primjene u vidu. Cilj je razumjeti osnovne principe fenomena.
-- Primjer: Istraživanje kvantnih svojstava materijala za potencijalnu primjenu u računalstvu. Znanstvenici proučavaju ponašanje elektrona u različitim materijalima na kvantnoj razini.
+- Temeljno znanstveno istraživanje bez specifične primjene u vidu. Cilj je razumjeti osnovne principe fenomena.
+- Primjer: Istraživanje kvantnih svojstava materijala za potencijalnu primjenu u računalstvu. Znanstvenici **proučavaju ponašanje elektrona u različitim materijalima** na kvantnoj razini.
 
 #### TRL 2 Formulirani tehnološki koncept:
 - Osnovni principi se primjenjuju na specifičnu ideju ili koncept. Formuliraju se potencijalne primjene, ali još nema eksperimentalnih dokaza.
-- Primjer: Koncept kvantnog računala koji bi koristio superpoziciju i kvantno sprezanje za izvođenje složenih izračuna. Teoretičari razvijaju matematičke modele i algoritme.
+- Primjer: **Koncept kvantnog računala** koji bi koristio superpoziciju i kvantno sprezanje za izvođenje složenih izračuna. Teoretičari razvijaju **matematičke modele i algoritme**.
 
 #### TRL 3 Eksperimentalni dokaz koncepta:
-- Provode se laboratorijski eksperimenti kako bi se dokazala izvedivost koncepta. Ovo je prva faza u kojoj se teorija susreće s praksom.
-- Primjer: Stvaranje i manipulacija pojedinačnim qubitovima u laboratorijskom okruženju. Znanstvenici uspijevaju kontrolirati stanje jednog ili dva qubita u vrlo kontroliranim uvjetima.
+- Provode se laboratorijski eksperimenti kako bi se dokazala izvedivost koncepta.
+- Primjer: Stvaranje i **manipulacija pojedinačnim qubitovima** u laboratorijskom okruženju. Znanstvenici uspijevaju kontrolirati stanje jednog ili dva qubita u vrlo kontroliranim uvjetima.
 
 </v-clicks>
 
@@ -388,16 +384,16 @@ graph LR
 <v-clicks>
 
 #### TRL 4 Validacija u laboratorijskom okruženju:
-- Osnovne komponente tehnologije se integriraju kako bi se utvrdilo da funkcioniraju zajedno. Testiranja se provode u strogo kontroliranim uvjetima.
-- Primjer: Integracija više qubita u mali kvantni procesor. Istraživači uspijevaju stvoriti kvantni registar od nekoliko qubita i izvesti osnovne kvantne operacije.
+- Komponente tehnologije se integriraju kako bi se utvrdilo da funkcioniraju zajedno. Testiranja u strogo kontroliranim uvjetima.
+- Primjer: Integracija više qubita u mali kvantni procesor. Istraživači uspijevaju stvoriti **kvantni registar od nekoliko qubita i izvesti osnovne kvantne operacije**.
 
 #### TRL 5 Validacija u relevantnom okruženju:
 - Tehnologija se testira u simuliranom operativnom okruženju. Komponente se testiraju s punom funkcionalnosti, ali ne u stvarnom sustavu.
-- Primjer: Testiranje kvantnog procesora s većim brojem qubita u uvjetima sličnim onima u stvarnom računalu. Provode se eksperimenti s kvantnim algoritmima na malom skupu problema.
+- Primjer: Testiranje **kvantnog procesora s većim brojem qubita** u uvjetima sličnim onima u stvarnom računalu. Provode se eksperimenti s kvantnim algoritmima na malom skupu problema.
 
 #### TRL 6 Demonstracija u relevantnom okruženju:
-- Prototip ili reprezentativni model se testira u okruženju vrlo bliskom stvarnom. Ovo je kritična faza u razvoju tehnologije.
-- Primjer: Demonstracija kvantnog računala koje može riješiti specifične probleme brže od klasičnih računala. Provode se usporedni testovi s klasičnim superračunalima na odabranim algoritmima.
+- Prototip se testira u okruženju vrlo bliskom stvarnom. Ovo je kritična faza u razvoju tehnologije.
+- Primjer: Demonstracija kvantnog računala koje može riješiti specifične probleme brže od klasičnih računala. Provode se **usporedni testovi s klasičnim superračunalima**.
 
 </v-clicks>
 
@@ -408,27 +404,67 @@ graph LR
 <v-clicks>
 
 #### TRL 7 Demonstracija prototipa u operativnom okruženju:
-- Prototip se testira u stvarnom operativnom okruženju. Ovo je značajan korak prema komercijalizaciji.
-- Primjer: Kvantno računalo s dovoljno qubita za rješavanje praktičnih problema postavlja se u istraživačkom centru ili tvrtki. Korisnici počinju eksperimentirati s rješavanjem stvarnih problema.
+- Prototip se testira u stvarnom operativnom okruženju.
+- Primjer: Kvantno računalo s dovoljno qubita za rješavanje praktičnih problema postavlja se u istraživačkom centru ili tvrtki. **Korisnici počinju eksperimentirati** s rješavanjem stvarnih problema.
 
 #### TRL 8 Sustav dovršen i kvalificiran:
 - Tehnologija je dokazana da radi u svom konačnom obliku i pod očekivanim uvjetima. Svi tehnički problemi su riješeni.
-- Primjer: Kvantno računalo je potpuno funkcionalno i spremno za komercijalnu proizvodnju. Prošlo je sve testove pouzdanosti i performansi te je kompatibilno s postojećom infrastrukturom.
+- Primjer: Kvantno **računalo je potpuno funkcionalno i spremno za komercijalnu proizvodnju**. Prošlo je sve testove pouzdanosti i performansi te je kompatibilno s postojećom infrastrukturom.
 
 #### TRL 9 Dokazano u operativnom okruženju:
-- Tehnologija je u potpunosti implementirana i uspješno radi u stvarnom operativnom okruženju. Ovo je najviša razina tehnološke spremnosti.
-- Primjer: Kvantna računala se rutinski koriste u industriji, znanosti i vladi za rješavanje složenih problema optimizacije, simulacije materijala, kriptografije i strojnog učenja.
+- Tehnologija je u potpunosti implementirana i uspješno radi u stvarnom operativnom okruženju.
+- Primjer: Kvantna računala se rutinski **koriste u industriji za rješavanje složenih problema** optimizacije, simulacije materijala, kriptografije i strojnog učenja.
 
 </v-clicks>
 
 ---
-layout: center
-class: text-center
+
+# Procjena vašeg TRL-a
+
+1. Identificirajte relevantne TRL kriterije za vašu tehnologiju
+2. Prikupite dokaze koji podržavaju procjenu (Tehnička dokumentacija, testni podaci, povratne informacije korisnika, itd.)
+3. Donesite procjenu o trenutnoj razini TRL-a
+4. Zatražite mišljenje drugih koji su upoznati s tehnologijom
+5. Koristite alate i okvire za procjenu TRL-a
+
+Ključni faktori: zrelost, složenost, dostupnost podataka, vanjska ograničenja, resursi
+
+![Procjena vašeg TRL-a](/assets/trlsteps.png)
+
 ---
 
-# mentimeter.com
-4938 4677
-https://www.menti.com/ala5bsf8hocq
+<div class="flex justify-center">
+  <div class="w-1/2 p-4">
+    <img src="/assets/mentimeter_qr_code.png" alt="Mentimeter QR Code" class="max-w-xs mx-auto">
+  </div>
+  <div class="w-1/2 p-4 flex flex-col justify-center">
+    <h2 class="text-2xl font-bold mb-4">Vaš TRL?</h2>
+    <p class="mb-2">Skenirajte QR ili unesite kod:</p>
+    <p class="text-3xl font-bold">57 23 49 7</p>
+    <a href="https://www.menti.com/altcqy1gbk14" class="mt-4">https://www.menti.com/altcqy1gbk14</a>
+  </div>
+</div>
+
+---
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alojyjrd9ceuhw6o75v8mpessz2anff7/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+---
+
+# TTP Canvas
+
+- Alat za transfer tehnologije u praksu
+- Pomaže istraživačima u:
+  - Pojašnjenju svrhe i vrijednosti istraživanja
+  - Identifikaciji ciljanih klijenata
+  - Planiranju aktivnosti za operacionalizaciju
+  - Razvoju modela održivosti
+
+<v-click>
+
+![TTP Canvas](/assets/ttpcanvas.png)
+
+</v-click>
 
 ---
 
@@ -456,6 +492,8 @@ https://www.menti.com/ala5bsf8hocq
 </v-click>
 
 ---
+layout: two-cols
+---
 
 # Od plana do akcije
 
@@ -470,23 +508,21 @@ https://www.menti.com/ala5bsf8hocq
 
 </v-clicks>
 
+::right::
+
+![House](/assets/house.jpeg)
+
 ---
 
-# Ključne smjernice za učinkovito planiranje putanje
+# Ključne smjernice za učinkovito planiranje
 
-<v-clicks>
-
-- **Prihvatite fleksibilnost i prilagodljivost** u svojoj putanji
+- **Prihvatite fleksibilnost i prilagodljivost**
 - **Fokusirajte se na rješavanje stvarnih problema kupaca**
 - **Uskladite tehnološke odluke s poslovnim ciljevima**
 - **Nemilosrdno prioritizirajte** kako biste maksimalno iskoristili ograničene resurse
 - **Integrirajte kontinuirano učenje i odlučivanje temeljeno na podacima**
-- **Jasno komunicirajte putanju** svim dionicima
-- **Koristite putanju kao alat** za strateško usklađivanje i izvršenje
-
-</v-clicks>
-
----
+- **Jasno komunicirajte vaš plan** svim dionicima
+- **Koristite plan kao alat** za strateško usklađivanje i izvršenje
 
 <v-clicks>
 
@@ -494,13 +530,15 @@ https://www.menti.com/ala5bsf8hocq
 
 > Amazon Web Services (AWS) je nastao kada je Amazon shvatio da može monetizirati svoju internu cloud infrastrukturu.
 
+> Lidl isto -> StackIT
+
 </v-clicks>
 
 ---
+class: text-left
+---
 
 # Prednosti planiranja putanje za uspjeh i rast
-
-<v-clicks>
 
 - Pruža strateški smjer i fokus
 - Usklađuje napore tima prema zajedničkim ciljevima
@@ -510,13 +548,19 @@ https://www.menti.com/ala5bsf8hocq
 - Ubrzava učenje i validaciju poslovnih pretpostavki
 - Povećava šanse za postizanje product-market fita i uspješno skaliranje
 
-</v-clicks>
-
 ---
 layout: center
 class: text-center
 ---
 
-# Hvala vam!
-niko@daytona.io
-Pitanja i odgovori
+<div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+  <div class="w-full md:w-1/2 max-w-sm">
+    <img src="/assets/niko-qrcode.png" alt="LinkedIn QR Code" class="w-full">
+  </div>
+  <div class="w-full md:w-1/2 max-w-sm flex flex-col justify-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Pitanja?</h2>
+    <p class="text-lg md:text-xl">niko@daytona.io</p>
+  </div>
+</div>
+
+---
