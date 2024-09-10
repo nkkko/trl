@@ -29,7 +29,7 @@
         }
     },
 
-    "postCreateCommand": "npm install -g npm@latest && npm install",
-    "postAttachCommand": "npm run dev -- --remote && daytona forward 3030 --public"
+    "postCreateCommand": "yarn install",
+    "postAttachCommand": "yarn run dev --remote && daytona forward 3030 --public"
   }
 
