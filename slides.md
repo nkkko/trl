@@ -100,6 +100,15 @@ layout: two-cols
 </v-clicks>
 
 ---
+layout: image
+image: /assets/gartner_ai_hype.png
+---
+
+
+
+---
+class: text-left
+---
 
 # Razumijevanje životnog ciklusa pomaže:
 
@@ -258,6 +267,8 @@ Pitanje 'Tko?' uključuje se u svako od gore navedenih dok odlučujete tko treba
 - Predstavlja Push faktor u inovacijama
 - Razvija se kako bi zadovoljio promjenjive tržišne potrebe
 
+---
+class: text-left
 ---
 
 # Omogućitelji (Kako?)
@@ -550,7 +561,6 @@ class: text-left
 
 ---
 layout: center
-class: text-center
 ---
 
 <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
