@@ -30,7 +30,7 @@
         }
     },
 
-    "postCreateCommand": "yarn install"
+    "postCreateCommand": "yarn install && yarn add -D playwright-chromium && sudo yarn playwright install-deps"
     // "postAttachCommand": "yarn run dev --remote && daytona forward 3030 --public"
   }
 
