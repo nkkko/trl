@@ -590,6 +590,20 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/logos@^1.1.42":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.3.tgz#a2832f4150769d48d2569aaabd05edd4e9e9f932"
+  integrity sha512-JLHS5hgZP1b55EONAWNeqBUuriRfRNKWXK4cqYx0PpVaJfIIMiiMxFfvoQiX/bkE9XgkLhcKmDUqL3LXPdXPwQ==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/mdi@^1.1.66":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.2.1.tgz#029deff92cedf38430a9ed2ee811a8818f1ded43"
+  integrity sha512-dSkQU78gsZV6Yxnq78+LuX7jzeFC/5NAmz7O3rh558GimGFcwMVY/OtqRowIzjqJBmMmWZft7wkFV4TrwRXjlg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.14":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@iconify-json/ph/-/ph-1.2.0.tgz"
@@ -603,6 +617,28 @@
   integrity sha512-0ov9JMKnqD4p/8aEzSTk+VKdmKZkRWHTqbzCEgKhL+yvpR8B1k3Ak8CO0bt6o+SBV/l8MOqUgFFgdt0xx8tLEw==
   dependencies:
     "@iconify/types" "*"
+
+"@iconify-json/twemoji@^1.1.15":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify-json/twemoji/-/twemoji-1.2.1.tgz#bcad13a4e4c7408b5f75d5751b5f9b846acbf006"
+  integrity sha512-BwYutpZMsBfo9YXXLCosyQXT9qU5xT+FBOqw2Ivks0bL7zZNiQGP/bONoQTZVvmOcEJrndfcvZGfKTDC92klfQ==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/uim@^1.1.9":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify-json/uim/-/uim-1.2.1.tgz#addc3c8cecb25b62399c5be8c0d673d529dd8e11"
+  integrity sha512-f+WsRsinY7Abi1L8LxtUDsFB6vg1DG0IFk9O0Y5QvEnLOYWYM2ZutSIQDRHdzUxmuD9bGQeGLj93iplXvq+jRQ==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/json@^2.2.221":
+  version "2.2.275"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-2.2.275.tgz#0514912264c72537898fc59adedad75a41c9a9b1"
+  integrity sha512-eiw64zix2sLUoZWjEJAwe0EU/wtZPww3h4NOEdqXgyiLmV400MXbOB7A+osZDuNPIP1Iapxab+r1mxW75dTWEw==
+  dependencies:
+    "@iconify/types" "*"
+    pathe "^1.1.2"
 
 "@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
@@ -621,6 +657,13 @@
     kolorist "^1.8.0"
     local-pkg "^0.5.0"
     mlly "^1.7.1"
+
+"@iconify/vue@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-4.1.2.tgz#b76135785ca366b29bf0736eee9cfefc1c2ef79e"
+  integrity sha512-CQnYqLiQD5LOAaXhBrmj1mdL2/NCJvwcC4jtW2Z8ukhThiFkLDkutarTOV2trfc9EXqUqRs0KqXOL9pZ/IyysA==
+  dependencies:
+    "@iconify/types" "^2.0.0"
 
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.5"
@@ -694,6 +737,13 @@
   version "2.1.0"
   resolved "https://registry.npmjs.org/@mdit-vue/types/-/types-2.1.0.tgz"
   integrity sha512-TMBB/BQWVvwtpBdWD75rkZx4ZphQ6MN0O4QB2Bc0oI5PC2uE57QerhNxdRZ7cvBHE2iY2C+BUNUziCfJbjIRRA==
+
+"@mdit/plugin-sub@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@mdit/plugin-sub/-/plugin-sub-0.12.0.tgz#62958ddc542f1c8a03cb5f1a1b95bde38a39118d"
+  integrity sha512-27kKkSVkymc+2RNc5XOYkeXip5PgHZPUnHpxUvkpnairLwyHsXb8/gzr9zd5arVkip86rcdy9LIvnF7zO0dNVQ==
+  dependencies:
+    "@types/markdown-it" "^14.1.1"
 
 "@mermaid-js/parser@^0.3.0":
   version "0.3.0"
@@ -1105,7 +1155,7 @@
     codemirror-theme-vars "^0.1.2"
     prism-theme-vars "^0.2.4"
 
-"@slidev/types@0.49.29":
+"@slidev/types@0.49.29", "@slidev/types@^0.49.21":
   version "0.49.29"
   resolved "https://registry.npmjs.org/@slidev/types/-/types-0.49.29.tgz"
   integrity sha512-xfUcW+zcZU/vzd4WMkZxnAbZbdI0faOPll1A0viXHqR8BlQhZxBV49kCreGl8NK4kd/+oJ/kM5gOXCwDQve0RQ==
@@ -3370,6 +3420,11 @@ markdown-it-footnote@^4.0.0:
   resolved "https://registry.npmjs.org/markdown-it-footnote/-/markdown-it-footnote-4.0.0.tgz"
   integrity sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==
 
+markdown-it-mark@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-mark/-/markdown-it-mark-4.0.0.tgz#c19cbc87d9cb9fd1a495e8fe31b740b6d9ebf8c8"
+  integrity sha512-YLhzaOsU9THO/cal0lUjfMjrqSMPjjyjChYM7oyj4DnyaXEzA8gnW6cVJeyCrCVeyesrY2PlEdUYJSPFYL4Nkg==
+
 markdown-it-mdc@^0.2.5:
   version "0.2.5"
   resolved "https://registry.npmjs.org/markdown-it-mdc/-/markdown-it-mdc-0.2.5.tgz"
@@ -4179,6 +4234,11 @@ punycode.js@^2.3.1:
   resolved "https://registry.npmjs.org/punycode.js/-/punycode.js-2.3.1.tgz"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
+qrcode.vue@^3.4.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/qrcode.vue/-/qrcode.vue-3.6.0.tgz#d940fe96712922232aa19892bdd68793e62c73e7"
+  integrity sha512-vQcl2fyHYHMjDO1GguCldJxepq2izQjBkDEEu9NENgfVKP6mv/e2SU62WbqYHGwTgWXLhxZ1NCD1dAZKHQq1fg==
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
@@ -4420,6 +4480,22 @@ slash@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/slash/-/slash-5.1.0.tgz"
   integrity sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==
+
+slidev-theme-neversink@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/slidev-theme-neversink/-/slidev-theme-neversink-0.3.6.tgz#91d9913bed3b55f73458761568bb02544c389874"
+  integrity sha512-x2fD986NYTmrXpR3d6EeST421voUk3GkL6XCn/6Ba2CcozWLNmXhEQPnjWdyngZfPMs7NNLbT2PLvOCrwXNymA==
+  dependencies:
+    "@iconify-json/logos" "^1.1.42"
+    "@iconify-json/mdi" "^1.1.66"
+    "@iconify-json/twemoji" "^1.1.15"
+    "@iconify-json/uim" "^1.1.9"
+    "@iconify/json" "^2.2.221"
+    "@iconify/vue" "^4.1.2"
+    "@mdit/plugin-sub" "^0.12.0"
+    "@slidev/types" "^0.49.21"
+    markdown-it-mark "^4.0.0"
+    qrcode.vue "^3.4.1"
 
 source-map-js@^1.0.1, source-map-js@^1.2.0:
   version "1.2.1"

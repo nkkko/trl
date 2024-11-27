@@ -1,299 +1,627 @@
 ---
-theme: seriph
-background: #fff
+theme: neversink
 layout: cover
-class: text-center
+color: indigo
+highlighter: shiki
+lineNumbers: false
+drawings:
+  persist: false
+transition: slide-left
+title: AI in Science Communication
+mdc: true
+neversink_slug: 'AI in Communication'
+---
+
+<Planet :size="140" mood="blissful" color="#ffc5d9" />
+
+---
+layout: cover
+color: indigo
+transition: fade
 ---
 
 # AI's Role in Expanding the Frontiers of Science Communication
-
 Nikola Balić, Head of Growth, Daytona
 
----
-layout: image-right
-image: /media/train.jpg
----
-
-# All Aboard the AI Hype Train!
-
-AI is generating a lot of buzz, but let's move beyond the hype and explore its practical applications in science communication. We're not just here to talk about the *potential* of AI, but how we can use it *today*.
+:: note ::
+CommOCEAN 2024 / 26-27 November 2024 / Instituto Español de Oceanografía, Málaga, Spain
 
 ---
-layout: center
+layout: cover
+color: indigo
 ---
 
-# My AI-Powered Life
+# ~~AI's Role in Expanding the Frontiers of Science Communication~~
+Nikola Balić, Head of Growth, Daytona
 
-A few examples of how AI helps me every day...
-
----
-layout: two-cols
----
-
-::left::
-
-Before AI: Struggling to write a formal resignation letter.
-
-::right::
-
-After AI: A polished, professional resignation submitted in minutes.
+:: note ::
+CommOCEAN 2024 / 26-27 November 2024 / Instituto Español de Oceanografía, Málaga, Spain
 
 ---
-layout: two-cols
+layout: cover
+color: indigo
 ---
 
-::left::
+# The Modern Communicator's Toolkit
+Nikola Balić, Head of Growth, Daytona
 
-Before AI: Frustrating phone calls with my car dealership.
+:: note ::
+CommOCEAN 2024 / 26-27 November 2024 / Instituto Español de Oceanografía, Málaga, Spain
 
-::right::
-
-After AI:  A concise, impactful complaint email that got results.
-
----
-layout: two-cols
----
-
-::left::
-
-Before AI: Difficulty creating an IRL card game from scattered ideas.
-
-::right::
-
-After AI:  A structured game design, ready for prototyping.
 
 ---
-layout: two-cols
+layout: intro
+color: zinc-light
 ---
 
-::left::
+# Translation is My State of Being.
 
-Before AI:  Overwhelmed by the complexity of learning to code.
+<Cat :size="140" mood="lovestruck" color="#f4a261" />
 
-::right::
-
-After AI:  Confidently writing my first Python scripts.
+<!-- Throughout my career, I have always been a translator - not just between languages, but between complex ideas and their understanding. From general public to high level stakeholders. From academia to business and other way around. From labs to products on shelves. My numbers are milions. From 35 m of spent EU funding, to 10ths of mil of emails. -->
 
 ---
 layout: full
 ---
 
-# Why *today* are we talking about AI in science communication?
+<img src="/images/madrid.jpeg" />
+
 
 ---
-layout: interactive
-poll: true
+layout: intro
+color: zinc-light
 ---
 
-# Show of Hands!
+# Let's play a game
 
-How many of you are using AI in your work?
-
----
-layout: interactive
-poll: true
----
-
-# And how many use it *several times a day*?
+<Planet :size="140" mood="shocked" color="#ffc5d9" />
 
 ---
-layout: interactive
-poll: true
+layout: intro
+color: red
 ---
 
-# Is using AI cheating?
+**Show of hands 🙌**
+
+# I consider using AI to be a form of cheating.
+
+<!-- Before we dive in, lets play a game. -->
 
 ---
-layout: section
+layout: intro
+color: red-light
 ---
 
-# AI: Power and Pitfalls
+**Show of hands 🙌**
+
+# I don't keep an AI tool constantly open.
 
 ---
-layout: center
-image: /media/autocomplete.gif
+layout: intro
+color: orange-light
 ---
 
-# Defining AI
+**Show of hands 🙌**
 
-Is it truly "Artificial Intelligence"? Or is it more accurately "Imitation Intelligence," a sophisticated form of statistical autocomplete?
+# That tool is ChatGPT.
 
 ---
 layout: image
-image: /media/mirage.jpg
+image: /images/unicorn.jpg
 ---
 
-# The Hallucination Problem
+---
+layout: image
+image: /images/ahrefs.jpg
+color: dark
+---
 
-AI can convincingly fabricate information. How do we address this challenge in science communication?
+<Cat :size="140" mood="blissful" color="#f4a261" />
+
+<SpeechBubble position="r" color='sky' shape="round" maxWidth="300px">
+From Resignation Letters, Card Games to Milions of Impressions.
+</SpeechBubble>
+
+<!-- Today, AI powers much of my daily life, from crafting professional communications to even creating physical games and analysing big data. Boost website domain rating to 48 in one year through 244 original content pieces, 2.5 million Google search impressions, 100,000 new visitors, 807 tweets (1,800 followers), and 345 LinkedIn posts (3,800 followers). -->
+
+---
+layout: intro
+---
+
+# What is AI, Really?
+
+<!-- Before we explore applications, let's understand what AI really is - and isn't. -->
+
+---
+layout: full
+---
+
+<img src="/images/babelfish.jpg" width="100%" />
+
+<!--  -->
+
+---
+layout: quote
+color: sky-light
+quotesize: text-m
+authorsize: text-s
+author: 'John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon'
+---
+
+# AI is OLD
+
+"We propose that a **2-month, 10-man study** of artificial intelligence be carried out during the **summer of 1956** at Dartmouth College [...]
+
+We think that a **significant advance** can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer."
+
+<!-- The worst case of Project Management. That was 68 years ago, and we’re just starting to make some progress on some of these ideas! I really love their 1950s optimism. The founding event of artificial intelligence as a field. -->
+
+---
+layout: intro
+---
+
+# Aritificial Intelligence?
+
+---
+layout: intro
+---
+
+# ~~Aritificial Intelligence?~~
+# Imitation Intelligence
+
+<!-- Let's avoid calling them "artificial intelligence" because the term is vague and misleading. It can describe simple algorithmic solutions or evoke magical scenarios, think unicorns, often distracting from the actual technology. -->
+
+---
+layout: intro
+color: lime
+---
+
+# Today, I want to talk about Large Language Models.
+
+<!-- because the term has mostly become a distraction. People will slap the name “AI” on almost anything these days, and it frequently gets confused with science fiction.
+
+I want to talk about the subset of the AI research field that I find most interesting today: Large Language Models. -->
+
+---
+layout: intro
+---
+
+# OpenAI ChatGPT, Google Gemini, Anthropic’s Claude and Facebook/Meta’s Llama, ...
+
+<!-- You’re hearing a lot about them at the moment, and that’s because they are genuinely really interesting things. -->
+
+---
+layout: intro
+---
+
+# LLM Predicts; It Doesn’t Understand.
+
+<!-- Remember: Despite their convincing interactions, these systems are not intelligent entities capable of planning or problem-solving. They merely imitate patterns from their training data. This leads to both its greatest strengths and its notable limitations. -->
+
+---
+layout: intro
+---
+
+# LLM is a model that predicts the next token (~word) in a sentence
+
+## It's statistical autocomplete
+
+---
+layout: full
+transition: fade
+---
+
+<img src="/images/Mostly.png" />
+
+<!-- We can evaluate LLMs on different dimensions of their skills. FLASK: Fine-grained Language Model Evaluation Based on Alignment Skill Sets.  -->
+
+---
+layout: full
+---
+
+<img src="/images/Flask.png" />
+
+---
+layout: intro
+color: rose-light
+---
+
+# Beware the Hallucination.
 
 ---
 layout: default
 ---
-# The Ethics of Training Data
 
-<v-clicks>
-
-* Biases inherent in training data can perpetuate stereotypes and inaccuracies.
-* Ethical considerations surrounding data usage are crucial.
-
-</v-clicks>
+<img src="/images/tom.jpg" />
 
 ---
-layout: image
-image: /media/leaderboard.png
+layout: default
 ---
 
-# Measuring "Vibes"
-
-Evaluating AI effectiveness isn't always straightforward. It's often a matter of judging the "vibes" - how well a model performs on a particular task.
+<img src="/images/tom2.jpg" />
 
 ---
-layout: section
+layout: intro
+color: rose-light
 ---
 
-# AI-Powered Science Communication: Tools and Techniques
+# AI is sycophant
+
+<!-- LLM suffers from tendency to agree with humans. -->
 
 ---
-layout: image
-image: /media/llm-capabilities.png
+layout: default
+align: center
 ---
 
-# The Latest and Greatest
-
-Today's leading LLMs offer impressive capabilities, from processing millions of tokens to creative writing and brainstorming. But it's about choosing the right tool for the task.
+<img src="/images/wife.jpeg" width="35%" />
 
 ---
-layout: two-cols
+layout: intro
+color: rose-light
 ---
 
-::left::
-
-# Text & Code
-
-* ChatGPT, Claude APIs offer powerful text and code generation capabilities.
-* Quick prototyping with Code Interpreter and Colab.
-
-::right::
-
-```python
-# Example Code Snippet
-print("Hello, world!")
-```
+# Confidence Doesn't Equal Accuracy.
 
 ---
-layout: image
-image: /media/ai-generated-science-image.jpg
+layout: default
+align: center
 ---
 
-# Image Generation
+<img src="/images/tweet-mother.jpeg" width="80%" />
 
-DALL-E 3, Midjourney, and Adobe Express empower us to visualize complex scientific concepts in engaging ways.
+<!-- This which makes no sense. Why did it do this?
 
----
+Because this is normally a riddle that examines gender bias. It’s seen thousands and thousands of versions of this riddle, and it can’t get out of that lane. It goes based on what’s in that training data.
 
-# Structuring Chat Interactions
+I like this example because it kind of punctures straight through the mystique around these things. They really are just imitating what they’ve seen before.
 
-Effective prompt engineering is key to unlocking the full potential of AI.
-
----
-layout: two-cols
----
-
-::left::
-
-**Poor Prompt:**  "Tell me about DNA."
-
-**Result:** A generic, surface-level explanation.
-
-::right::
-
-**Good Prompt:** "Explain DNA replication in simple terms, using analogies suitable for a 10-year-old audience."
-
-**Result:**  A clear, engaging explanation with relatable examples.
+Riley Goodside - https://x.com/goodside/status/1790912819442974900 -->
 
 ---
-layout: image
-image: /media/specialized-tool-screenshot.png
+layout: intro
 ---
 
-# Purpose-Built Tools
+# Just cause a tool is flawed...
+# ...doesn't mean it's not useful.
 
-Specialized tools like r.jina.ai offer tailored solutions for specific science communication tasks.
+<!-- They have all of these problems: They hallucinate. They make things up. There are all sorts of ethical problems with the training data. There’s bias baked in.
 
----
-layout: section
----
+And yet, just because a tool is flawed doesn’t mean it’s not useful.
 
-# Transforming Science Communication: Real-World Applications
-
----
-layout: two-cols
----
-
-::left::
-
-# Simplifying Scientific Language
-
-AI can translate complex research into accessible language, bridging the gap between scientists and the public.
-
-::right::
-
-**Original Text:** (Complex scientific jargon)
-
-**Simplified Text:** (Clear, concise explanation)
+If you understand their flaws and know how to work around them, there is so much interesting stuff you can do with them! -->
 
 ---
-layout: image
-image: /media/data-viz-comparison.png
+layout: intro
+color: indigo
 ---
 
-# Enhancing Data Visualization
-
-AI can transform raw data into compelling visuals, making scientific findings more impactful and understandable.
+# What can I create with this that I couldn't before?
 
 ---
-layout: iframe
-url: /media/ai-generated-story.mp4
+layout: intro
 ---
 
-# Elevating Storytelling
-
-AI can craft engaging narratives from scientific data, making research more relatable and memorable.
+<img src="/images/ai-product-map-groups-matt-webb.png" width="55%" />
 
 ---
-layout: section
+layout: intro
+color: fuchsia
 ---
 
-# Navigating the Challenges
+# It's About Vibes.
+
+<!-- It's about playing with all models and tools trying to see which one gets the best output. -->
 
 ---
-layout: image
-image: /media/misinformation-infographic.png
-
+layout: intro
+align: center
 ---
 
-# Combating Misinformation
-
-AI can be a powerful tool for both spreading and combating misinformation. Responsible use, fact-checking, and transparency are paramount.
+<img src="/images/sir.jpg" width="75%" />
 
 ---
-
-# Social Media Strategies
-
-AI can amplify science communication efforts on social media, reaching broader audiences.
-
+layout: intro
 ---
 
-# Conclusion
-
-AI offers transformative potential for science communication, but responsible use is essential.
+# From Divergence to Convergence.
 
 ---
-layout: center
+layout: intro
+color: indigo
 ---
 
-# Q&A
+# Prompt Engineering.
 
-```
+<!-- And when you start looking into prompt engineering, you realize it’s really just a giant bag of dumb tricks. -->
 
+---
+layout: two-cols-title
+columns: is-4
+---
+
+:: title ::
+
+# Prompt Engineering.
+
+:: left ::
+
+### Basic Prompting Techniques
+
+<div class="ns-c-tight">
+
+- **Zero-Shot Prompting**: Generating responses without providing examples or prior context
+- **One-Shot Prompting**: Extracting responses based on a single example or piece of context
+- **Few-Shot Prompting**: Using multiple examples to guide the model's responses
+</div>
+
+:: right ::
+
+### Advanced Techniques
+
+<div class="ns-c-tight">
+
+- **Chain-of-Thought (CoT)**: Breaking down complex problems into sequential steps
+- **Chain of Cause (CoC)**: A variation of CoT that focuses on causal relationships and reasoning
+- **Tree-of-Thoughts (ToT)**: Extends CoT by exploring multiple coherent units of text as intermediate steps
+- **Prompt Reframing**: Modifying prompt wording while maintaining original intent to generate varied responses
+- **Prompt Combination**: Merging multiple instructions into a single prompt
+- **Iterative Prompting**: Building upon previous responses through follow-up questions to gather detailed information
+- **Active Prompting**: Active learning through 4 stages: uncertainty estimation, selection, annotation, and model adaptation
+- **ReAct (Reason and Act)**: Combines reasoning and acting to solve language reasoning and decision-making tasks
+</div>
+
+---
+layout: intro
+---
+
+# APIs Give You Flexibility & Power.
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/anthropic.jpg" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/openai.png" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/google.png" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/groq.jpg" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/mistral.png" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/librechat.jpg" width="100%" />
+
+---
+layout: intro
+---
+
+# System, User, Assistant: The Competent Trio.
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/librechat2.jpg" width="100%" />
+
+---
+layout: two-cols-title
+---
+
+:: title ::
+
+# Specialized Tools for Every Tasks.
+
+:: left ::
+
+<div class="ns-c-tight">
+
+**Research:**
+- Perplexity
+- Stanford Oval Storm
+- OpenScholar
+- Elicit
+- Jenni
+
+**Audio:**
+- Google NotebookLM
+- ElevenLabs - speech
+
+**Random:**
+- https://www.promptingguide.ai/
+
+</div>
+
+:: right ::
+
+<div class="ns-c-tight">
+
+**Visual:**
+- v0
+- Recraft v3
+- Grok/Flux
+- Adobe Express
+
+**Tools:**
+- Jina Reader API
+- Jina PromptPerfect - Ai arena
+- Poe - many models
+- Lex -writing tool
+- LibreChat - selfhosted
+
+</div>
+
+---
+layout: intro
+---
+
+# What if there is no tool?
+
+<img src="/images/spoon.jpeg" width="100%" />
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/synthspider.jpg" width="100%" />
+
+---
+layout: intro
+---
+
+# From Raw Data to Compelling Narratives.
+
+---
+layout: intro
+align: center
+color: dark
+---
+
+<img src="/images/auth2vec.jpeg" width="70%" />
+
+---
+layout: intro
+color: indigo
+---
+
+# BUT REMEMBER:
+# Making Research Relatable and Memorable.
+
+---
+layout: intro
+color: amber-light
+---
+
+# 1. Become a Prolific Creator.
+
+---
+layout: intro
+color: red
+---
+
+# 2. Don't publish slop.
+
+<!-- Guideline for personal AI ethics: Don't publish low-quality content. Just as we avoid spamming, we should refrain from inundating people with subpar material. Slop is the new name for unwanted AI-generated content. -->
+
+---
+layout: intro
+color: amber-light
+---
+
+# 3. Verification and Transparency: Our Guiding Principles.
+
+---
+layout: intro
+color: amber-light
+---
+
+# 4. Engaging Authentically and Building Long-Term Trust.
+
+---
+layout: intro
+color: amber-light
+---
+
+# 5. AI Empowers, It Doesn't Replace.
+
+---
+layout: intro
+color: indigo
+---
+
+# Where is this all going?
+
+<Cat :size="120" mood="excited" color="#f4a261" />
+
+---
+layout: full
+---
+
+# Specialised and augmented small models (SLM)
+
+<img src="/images/smallmodels.jpg" />
+
+---
+layout: full
+---
+
+<img src="/images/computeruse.gif" />
+
+<!-- Anthropic Computer Use Demo: AI directly interacting with the computer through UI -->
+
+---
+layout: full
+---
+
+# Mixture of Experts
+
+<img src="/images/moa.png" />
+
+<!-- The system like new OpenAI o1 employs advanced reasoning capabilities by generating and refining multiple chains of thought for each input, producing predictions through iterative analysis, and documenting these thought processes to continuously improve the model's performance. Source: https://arxiv.org/abs/2406.04692 -->
+
+---
+layout: full
+---
+
+<img src="/images/automate.png" />
+
+<!-- We will automate creation workflows -->
+
+---
+layout: full
+---
+
+# Simulate Worlds
+
+<img src="/images/worlds.jpeg" />
+
+<!-- We will build simulation or twins of our audiences. Source: https://arxiv.org/abs/2411.10109 -->
+
+---
+layout: full
+---
+
+# Like & Subscribe
+
+<Thumb color="sky-light"  v-drag="[600,100,270,270]" />
+
+<img src="/images/nikola-qrcode.png" width="50%" />
+
+<Cat :size="120" mood="blissful" color="#f4a261" />
